@@ -1,0 +1,46 @@
+body{
+	background-color: black;
+}
+#main-nav div a{
+	color: grey;
+	text-decoration: none;
+	padding-left: 5em;
+	padding-right: 2em;
+	border-right: 2px blue solid;
+}
+#main-nav div a:hover{
+	color: blue;
+}
+#main-nav{
+	text-align: center;
+}
+.css_selector{
+	color: grey;
+}
+.element h5,h4,code{
+	color: grey;
+}
+.element{
+	max-width: 65em;
+	margin-left:15%;
+	margin-right: 15%; 
+}
+.element h3{
+	color: yellow;
+}
+#bio{
+	color: grey;
+	border-radius: 13em;
+}
+#bio a:hover{
+	color: yellow;
+}
+.button-nav{
+	background-color: yellow; 
+	padding: 0.5em;
+	text-decoration: none;
+	color: grey;
+}
+.button-nav:hover{
+	background-color: blue;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <!-- link to CSS -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+
+    
+<body>
+	 <header>
+      <h1>Portfolio</h1>
+      <p class ="quote">Joy Luo</p>
+
+   <!--  navigation bar on top -->
+    <nav id="main-nav">      
+      <div class="nav-2of2"> 
+          <a href="#" class="nav">Portfolio</a>
+          <a href="#" class="nav">Bio</a>
+          <a href="#" class="nav">Project</a>       
+        </div>  
+      </div>
+    </nav>
+  </header>
+
+<section id="Home" class="element">
+    <h3 class="style-guide-heading">Image as a Link</h3>
+    <h5>CSS selector:</h5>
+    <p class="css_selector">#image</p>
+    <h5>Sample code:</h5>
+    <code>&lt;a id="image" href="product_listing.html">&lt;img src="img/bluerose.jpg" alt="bluerose-homepage" width="1200" height="600"&gt; &lt;/a&gt;</code>
+    <h4 class="style-guide-heading">Rendered element:</h4>
+    <a id="image" href="product_listing.html"><img src="img/bluerose.jpg" alt="bluerose-homepage" width="100%"></a>     
+
+    <h3 id="about_us" class="style-guide-heading">In-text link</h3>
+    <h5>CSS selector:</h5>
+    <p class="css_selector">#Home p a</p>
+    <h5>Sample code:</h5>
+    <code>&lt;a href="#"> Know More About Me&lt;/a&gt;</code>
+    <h4 class="style-guide-heading">Rendered element:</h4>
+    <p id="bio">I am in SIAT major and concentrated in Media arts in SFU. I found I was interested in media arts when I was in secondary school, I was interested in watching videos especially 3D animations. After that, I start to learn some  and photographing in spare time. Then I decide to learn more professional animating skills in the university and endue art technique including aesthetics and design principles so I came here. After I studied here for four years, I wish I can be an animator even an animation designer. <a href="#contact_us">Know More About Me </a></p>
+
+
+  </section>
+
+  <section class="element">
+         <h3 class="style-guide-heading">Image</h3>
+         <h5>CSS selector:</h5>
+         <p class="css_selector">.products</p>
+         <h5>Sample code:</h5>
+         <code>&lt;div class="products"&gt;&lt;img src="img/project1-1.png" width="200" alt="project1-1"&gt;</code>
+         <code>&lt;p&gt;project1-1&lt;/p&gt;&lt;/div&gt;</code>
+          
+         <h4 class="style-guide-heading">Rendered element:</h4>
+
+        <h4>Project Process</h4>
+        <div class="products">
+          <a href="product_listing.html#green_tea"><img src="img/project1-1.png" width="700" alt="original green tea"></a>
+          <p>Project - Process</p>
+        </div>
+   </section>
+
+    <section class="element">
+      <h3 class="style-guide-heading">Button</h3>
+
+            <h5>CSS selector:</h5>
+            <p class="css_selector">.button-nav</p>
+
+            <h5>Sample code:</h5>
+            <code>&lt;a href="#" class="button"&gt;Show Less&lt;/a&gt;</code>
+
+            <h4 class="style-guide-heading">Rendered element:</h4>
+
+            <a class="button-nav" href="#">Show Less</a>
+    </section>
+
+
+</body>
+</html>
