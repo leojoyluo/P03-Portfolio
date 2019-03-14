@@ -7,6 +7,7 @@ body .bio-image{
 .pjt-des{
 	max-width: 35em;
 	color: grey;
+	font-family: Optima;
 }
 .pjt-text{
 	margin-left: 3em;
@@ -15,4 +16,5 @@ h2{
 	color: grey;
 	border-left: solid 2px yellow;
 	padding-left: 1em;
+	font-family: Optima;
 }

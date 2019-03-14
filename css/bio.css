@@ -3,7 +3,7 @@ body #bio-image{
 }
 div #bio{
 	max-width: 45em;
-	padding-top: 5em;
+	padding-top: 7em;
 	padding-left: 0em;
 	margin-right: 10%;
 
@@ -12,4 +12,10 @@ h1{
 	color: blue;
 	font-size: 2.5em;
 	padding-top: 2em;
+	font-family: Optima;
+
+}
+#bio-image div h1{
+	font-size: 6.5em;
+	color: yellow;
 }
