@@ -1,0 +1,15 @@
+body #bio-image{
+	display: flex;
+}
+div #bio{
+	max-width: 45em;
+	padding-top: 5em;
+	padding-left: 0em;
+	margin-right: 10%;
+
+}
+h1{
+	color: blue;
+	font-size: 2.5em;
+	padding-top: 2em;
+}
