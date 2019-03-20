@@ -1,19 +1,22 @@
-#styleguide-body{
+/*#styleguide-body{
 	background-color: black;
 }
 body{
 	background-color: black;
-}
+}*/
 #main-nav div a{
 	color: grey;
 	text-decoration: none;
-	padding-left: 5em;
+	padding-left: 3em;
 	padding-right: 2em;
-	border-right: 2px blue solid;
+	border-right: 2px red solid;
 	font-family: Optima;
 }
+#main-nav div{
+	min-width: 35em;
+}
 #main-nav div a:hover{
-	color: blue;
+	color: red;
 }
 #main-nav{
 	text-align: center;
@@ -50,7 +53,7 @@ body{
 	color: grey;
 }
 .button-nav:hover{
-	background-color: blue;
+	background-color: red;
 }
 
 footer a{
@@ -72,10 +75,4 @@ footer{
 #levels-heading h2{
 	color: grey;
 	font-size: 2em;
-}
-h1{
-	color: blue;
-	font-size: 2.5em;
-	padding-top: 2em;
-	padding-left: 2em;
 }

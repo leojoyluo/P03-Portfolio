@@ -1,4 +1,4 @@
-body .bio-image{
+/*body .bio-image{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -11,10 +11,42 @@ body .bio-image{
 }
 .pjt-text{
 	margin-left: 3em;
+}*/
+.container{
+	display: flex;
+	margin-top: 15em;
 }
 h2{
 	color: grey;
 	border-left: solid 2px yellow;
 	padding-left: 1em;
 	font-family: Optima;
+}
+
+h1{
+	color: red;
+	font-size: 2.5em;
+	padding-left: 2em;
+}
+#bio-slogan div p{
+	color: red;
+	font-size: 3.5em;
+}
+#bio-slogan div{
+	max-width: 70em;
+}
+#bio-slogan{
+	display: flex;
+	justify-content: center;
+	padding-top: 10em;
+	padding-bottom: 20em;
+}
+@media(max-width: 70em){
+	#bio-slogan div p{
+		font-size: 1.5em;
+		max-width: 20em;
+	}
+	.container{
+		flex-direction: column;
+	}
 }
