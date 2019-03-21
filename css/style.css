@@ -7,13 +7,14 @@ body{
 #main-nav div a{
 	color: grey;
 	text-decoration: none;
-	padding-left: 3em;
-	padding-right: 2em;
+	padding-left: 1em;
+	padding-right: 1em;
 	border-right: 2px red solid;
 	font-family: Optima;
 }
 #main-nav div{
 	min-width: 35em;
+	text-align: center;
 }
 #main-nav div a:hover{
 	color: red;

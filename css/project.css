@@ -1,24 +1,42 @@
-/*body .bio-image{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding-top: 10em;
+p{
+	line-height: 2.2em;
 }
-.pjt-des{
-	max-width: 35em;
-	color: grey;
-	font-family: Optima;
-}
-.pjt-text{
-	margin-left: 3em;
-}*/
 .container{
 	display: flex;
 	margin-top: 15em;
+	margin-left: 10%;
+	margin-right: 10%;
+	min-width: 28em;
+	align-items: flex-start;
+}
+#bio{
+	max-width: 30em;
+   padding-left: 2em;
+}
+#container-bio{
+	justify-content: center;
+}
+/*Project des at the left column*/
+.des{
+	max-width: 80em;
+	padding-right: 2em;
+}
+/*Project detail des at the right column*/
+.pjt-des{
+	max-width: 50em;
+}
+.img img{
+	width: 35em;
+}
+.icon-cherry{
+	justify-content: center;
+}
+#container3{
+	justify-content:  center;
 }
 h2{
 	color: grey;
-	border-left: solid 2px yellow;
+	border-left: solid 2px red;
 	padding-left: 1em;
 	font-family: Optima;
 }
@@ -26,7 +44,10 @@ h2{
 h1{
 	color: red;
 	font-size: 2.5em;
-	padding-left: 2em;
+	font-family: Optima;
+	min-width: 10em;
+	border-top: solid 2px red;
+	
 }
 #bio-slogan div p{
 	color: red;
@@ -41,6 +62,10 @@ h1{
 	padding-top: 10em;
 	padding-bottom: 20em;
 }
+#container3{
+	align-items: center;
+}
+/*Responsive attributes at breakpoint 70em*/
 @media(max-width: 70em){
 	#bio-slogan div p{
 		font-size: 1.5em;
@@ -48,5 +73,28 @@ h1{
 	}
 	.container{
 		flex-direction: column;
+		align-items: center;
+		min-width: 30em;
+	}
+	.pjt-des{
+		min-width: 30em;
+		margin-bottom: 5em;
+	}
+
+	.img{
+		text-align: center;
+	}
+	.pjt-content{
+
+	}
+	.des{
+		margin-bottom: 5em;
+		min-width: 35em;
+	}
+	.des h1{
+		text-align: center;
+	}
+	body{
+		min-width: 40em;
 	}
 }
