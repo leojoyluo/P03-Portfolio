@@ -2,25 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Portfolio</title>
+  <title>Styleguide</title>
   <!-- link to CSS -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">  
+  <link href="css/project.css" rel="stylesheet">
 </head>
 
 
     
 <body id="styleguide-body">
 	 <header>
-      <h1>Styleguide</h1>
-      <p class ="quote">Joy Luo</p>
+      <h1 id="styleguide-heading">Styleguide</h1>
 
    <!--  navigation bar on top -->
     <nav id="main-nav">      
       <div class="nav-2of2"> 
           <a href="homepage.html" class="nav">Portfolio</a>
-          <a href="bio.html" class="nav">Bio</a>
-          <a href="project.html" class="nav">Project1</a>     
-          <a href="project2.html" class="nav">Project2</a>     
+          <a href="homepage.html#container-bio" class="nav">Bio</a>
+          <a href="homepage.html#container2" class="nav">Project1</a>     
+          <a href="homepage.html#container4" class="nav">Project2</a>     
         </div>  
       </div>
     </nav>
@@ -31,9 +31,9 @@
     <h5>CSS selector:</h5>
     <p class="css_selector">#image</p>
     <h5>Sample code:</h5>
-    <code>&lt;a id="image" href="product_listing.html">&lt;img src="img/bluerose.jpg" alt="bluerose-homepage" width="1200" height="600"&gt; &lt;/a&gt;</code>
+    <code>&lt;a id="image" href="#bio">&lt;img src="img/girl.gif" alt="girl" width="500" &gt; &lt;/a&gt;</code>
     <h4 class="style-guide-heading">Rendered element:</h4>
-    <a id="image" href="product_listing.html"><img src="img/bluerose.jpg" alt="bluerose-homepage" width="100%"></a>     
+    <a id="image" href="#bio"><img src="img/girl.gif" alt="girl" width="100%"></a>     
 
     <h3 id="about_us" class="style-guide-heading">In-text link</h3>
     <h5>CSS selector:</h5>
@@ -41,7 +41,7 @@
     <h5>Sample code:</h5>
     <code>&lt;a href="#"> Know More About Me&lt;/a&gt;</code>
     <h4 class="style-guide-heading">Rendered element:</h4>
-    <p id="bio">I am in SIAT major and concentrated in Media arts in SFU. I found I was interested in media arts when I was in secondary school, I was interested in watching videos especially 3D animations. After that, I start to learn some  and photographing in spare time. Then I decide to learn more professional animating skills in the university and endue art technique including aesthetics and design principles so I came here. After I studied here for four years, I wish I can be an animator even an animation designer. <a href="#contact_us">Know More About Me </a></p>
+    <p id="bio">I am in SIAT major and concentrated in Media arts in SFU. I found I was interested in media arts when I was in secondary school, I was interested in watching videos especially 3D animations. After that, I start to learn some  and photographing in spare time. Then I decide to learn more professional animating skills in the university and endue art technique including aesthetics and design principles so I came here. After I studied here for four years, I wish I can be an animator even an animation designer. <a href="#container2">Know More About My Project </a></p>
 
 
   </section>
@@ -68,16 +68,21 @@
          <h5>CSS selector:</h5>
          <p class="css_selector">.products</p>
          <h5>Sample code:</h5>
-         <code>&lt;div class="products"&gt;&lt;img src="img/project1-1.png" width="200" alt="project1-1"&gt;</code>
+         <code>&lt;div class="products"&gt;&lt;img src="img/project1-1.png" width="700" alt="project1-1"&gt;</code>
          <code>&lt;p&gt;project1-1&lt;/p&gt;&lt;/div&gt;</code>
           
          <h4 class="style-guide-heading">Rendered element:</h4>
 
         <h4>Project Process</h4>
-        <div class="products">
-          <a href="product_listing.html#green_tea"><img src="img/project1-1.png" width="700" alt="original green tea"></a>
-          <p>Project - Process</p>
-        </div>
+        <div class="pjt-content">
+              <div class="img">
+                  <img src="img/project1-1.png" alt="project1-1"  width="700" > 
+              </div>
+              <div class="pjt-text"> 
+                  <h2>Project Description</h2>
+                  <p class="pjt-des">The goal of this work is to establish basic animating skills on modeling in 3D animation to express a sense we want to create. For me, I plan to create an object with a punctum.  Punctum is something that could stimulate audiences, it could be an emotion. What I created is my first animation model, a flower pot and some fake flowers. What I have done to try to achieve the goal can be found from the idea, the process of modeling and the decision of composition of all models. </p>
+              </div>
+            </div>
    </section>
 
     <section class="element">
@@ -108,7 +113,11 @@
             <p>I am in SIAT major and concentrated in Media arts in SFU. I found I was interested in media arts when I was in secondary school, I was interested in watching videos especially 3D animations. After that, I start to learn some  and photographing in spare time. Then I decide to learn more professional animating skills in the university and endue art technique including aesthetics and design principles so I came here. After I studied here for four years, I wish I can be an animator even an animation designer.</p>
     </section>
 
-
+  <footer>
+    <a href="styleguide.html">Styleguide</a>
+    <br>
+    <a href="https://github.com/leojoyluo/P03-Portfolio.git">Git</a>
+  </footer>
 
 </body>
 </html>

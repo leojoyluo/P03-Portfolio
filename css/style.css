@@ -1,9 +1,4 @@
-/*#styleguide-body{
-	background-color: black;
-}
-body{
-	background-color: black;
-}*/
+
 #main-nav div a{
 	color: grey;
 	text-decoration: none;
@@ -34,24 +29,28 @@ body{
 	margin-right: 15%; 
 }
 .element h3{
-	color: yellow;
+	color: red;
 }
-#bio{
+#bio,p{
 	color: grey;
 	border-radius: 13em;
 	font-family: Optima;
+	line-height: 2.2em;
 }
 #bio a:hover{
-	color: yellow;
+	color: red;
+}
+#bio a{
+	color: grey;
 }
 .pjt-des a:hover{
-	color: yellow;
+	color: red;
 }
 .button-nav{
-	background-color: yellow; 
+	background-color: grey; 
 	padding: 0.5em;
 	text-decoration: none;
-	color: grey;
+	color: white;
 }
 .button-nav:hover{
 	background-color: red;
@@ -62,7 +61,7 @@ footer a{
 }
 
 footer a:hover{
-    color: yellow;
+    color: red;
 }
 footer{
 	text-align: center;
@@ -70,10 +69,19 @@ footer{
 	padding-bottom: 5em;
 }
 #levels-heading h1{
-	color: blue;
+	color: red;
+	border-top: solid red 2px;
 	font-size: 2.5em;
+	width: 10em;
 }
 #levels-heading h2{
 	color: grey;
 	font-size: 2em;
+	border-left: red 2px solid;
+	padding-left: 1em;
 }
+h1#styleguide-heading{
+	text-align: center;
+	color: red;
+}
+
