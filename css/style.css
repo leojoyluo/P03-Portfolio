@@ -55,6 +55,10 @@
 .button-nav:hover{
 	background-color: red;
 }
+#style-button{
+	font-family: Optima;
+	font-size: 1.5em;
+}
 
 footer a{
     color: grey;

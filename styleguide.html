@@ -17,13 +17,12 @@
    <!--  navigation bar on top -->
     <nav id="main-nav">      
       <div class="nav-2of2"> 
-          <a href="homepage.html" class="nav">Portfolio</a>
-          <a href="homepage.html#container-bio" class="nav">Bio</a>
-          <a href="homepage.html#container2" class="nav">Project1</a>     
-          <a href="homepage.html#container4" class="nav">Project2</a>     
-        </div>  
-      </div>
-    </nav>
+          <a href="homepage.html" class="nav">Joy Luo</a>
+          <a href="#container-bio" class="nav">Bio</a>
+          <a href="#container2" class="nav">Project</a>           
+          <a href="#container-contact" class="nav">Contacts</a>     
+      </div>  
+  </nav>
   </header>
 
 <section id="Home" class="element">
@@ -33,7 +32,7 @@
     <h5>Sample code:</h5>
     <code>&lt;a id="image" href="#bio">&lt;img src="img/girl.gif" alt="girl" width="500" &gt; &lt;/a&gt;</code>
     <h4 class="style-guide-heading">Rendered element:</h4>
-    <a id="image" href="#bio"><img src="img/girl.gif" alt="girl" width="100%"></a>     
+    <a id="image" href="#bio"><img src="img/girl.gif" alt="girl" ></a>     
 
     <h3 id="about_us" class="style-guide-heading">In-text link</h3>
     <h5>CSS selector:</h5>
@@ -96,7 +95,7 @@
 
             <h4 class="style-guide-heading">Rendered element:</h4>
 
-            <a class="button-nav" href="#">Show Less</a>
+            <a id="style-button" class="button-nav" href="#">Show Less</a>
     </section>
 
     <section class="element">
@@ -112,6 +111,25 @@
 
             <p>I am in SIAT major and concentrated in Media arts in SFU. I found I was interested in media arts when I was in secondary school, I was interested in watching videos especially 3D animations. After that, I start to learn some  and photographing in spare time. Then I decide to learn more professional animating skills in the university and endue art technique including aesthetics and design principles so I came here. After I studied here for four years, I wish I can be an animator even an animation designer.</p>
     </section>
+
+
+  <section class="element">
+     <h3 class="style-guide-heading">Textarea</h3>
+
+            <h5>CSS selector:</h5>
+            <p class="css_selector">textarea</p>
+
+            <h5>Sample code:</h5>
+
+            <code>&lt;textarea name="messages" placeholder="Please write down your message here~" style="width:100%; height:125px"&gt;&lt;/textarea&gt;</code>
+
+            <h4 class="style-guide-heading">Rendered element:</h4>
+          <p>If you want to know me more just contact me and tell me what do you think about me!! I'll reply you as soon as possible. If you want to contact me immediately, just<span><br>call me: +1 77880000</span></p>
+          <!-- text box -->
+          <textarea name="messages" placeholder="Please write down your message here~" style="width:100%; height:125px"></textarea>
+            <div id="send-button"> <button>Send</button> </div>
+         
+  </section>
 
   <footer>
     <a href="styleguide.html">Styleguide</a>

@@ -13,6 +13,9 @@ p{
 	max-width: 30em;
    padding-left: 2em;
 }
+#interest{
+	padding-left: 2em;
+}
 #container-bio{
 	justify-content: center;
 }
@@ -27,6 +30,10 @@ p{
 }
 .img img{
 	width: 35em;
+}
+h1#employ-heading{
+	width: 100%;
+	text-align: center;
 }
 .icon-cherry{
 	justify-content: center;
@@ -65,6 +72,49 @@ h1{
 #container3{
 	align-items: center;
 }
+/*Contact me section*/
+
+h1#contact-heading{
+	width: 100%;
+}
+.contact-row{
+	display: flex;
+	justify-content: flex-start;
+	min-width: 22em;
+	flex-wrap: wrap;
+	padding-right: 1.5em;
+	padding-top: 3em;
+
+}
+@media(max-width: 49.5em){
+	.container{
+		flex-direction:column;
+	}
+}
+#contact-us-input{
+	max-width: 60em;
+	margin-top: 1em;
+	padding: 1em;
+	min-width: 30em;
+}
+#send-button{
+	text-align: right;
+	padding-right: 1em;
+}
+#send-button button{
+	font-size: 2em;
+	font-family: Optima;
+	color: white;
+	background: grey;
+}
+#send-button button:hover{
+	background-color: red;
+}
+span{
+	color: red;
+}
+
+
 /*Responsive attributes at breakpoint 70em*/
 @media(max-width: 70em){
 	#bio-slogan div p{
@@ -97,4 +147,7 @@ h1{
 	body{
 		min-width: 40em;
 	}
+	h1#contact-heading{
+	text-align: center;
+}
 }
