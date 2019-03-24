@@ -21,7 +21,7 @@ p{
 }
 /*Project des at the left column*/
 .des{
-	max-width: 80em;
+	max-width: 30em;
 	padding-right: 2em;
 }
 /*Project detail des at the right column*/
@@ -33,7 +33,7 @@ p{
 }
 h1#employ-heading{
 	width: 100%;
-	text-align: center;
+	text-align: left;
 }
 .icon-cherry{
 	justify-content: center;
@@ -75,7 +75,7 @@ h1{
 /*Contact me section*/
 
 h1#contact-heading{
-	width: 100%;
+	max-width: 40em;
 }
 .contact-row{
 	display: flex;
@@ -102,12 +102,13 @@ h1#contact-heading{
 	padding-right: 1em;
 }
 #send-button button{
-	font-size: 2em;
+	font-size: 1.2em;
 	font-family: Optima;
 	color: white;
 	background: grey;
 }
 #send-button button:hover{
+	transition: background-color 2s;
 	background-color: red;
 }
 span{
@@ -140,6 +141,7 @@ span{
 	.des{
 		margin-bottom: 5em;
 		min-width: 35em;
+		max-width: 80em;
 	}
 	.des h1{
 		text-align: center;
@@ -148,6 +150,16 @@ span{
 		min-width: 40em;
 	}
 	h1#contact-heading{
-	text-align: center;
+		text-align: center;
+	}
+	#send-button{
+		text-align: center;
+	}
+	h1#employ-heading{
+		text-align: center;
+	}
+	h1#contact-heading{
+	width: 100%;
+	max-width: 80em;
 }
 }
