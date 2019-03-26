@@ -29,11 +29,18 @@ p{
 	max-width: 50em;
 }
 .img img{
-	width: 35em;
+	width: 40em;
 }
 h1#employ-heading{
 	width: 100%;
 	text-align: left;
+}
+img.pjt-tittle-pic{
+	margin-top: 6.2em;
+}
+.img img{
+	border: double red 3px;
+	padding: 3px;
 }
 .icon-cherry{
 	justify-content: center;
@@ -161,5 +168,8 @@ span{
 	h1#contact-heading{
 	width: 100%;
 	max-width: 80em;
-}
+	}
+	img.pjt-tittle-pic{
+		margin-top: 0;
+	}
 }
