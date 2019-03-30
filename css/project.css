@@ -1,23 +1,33 @@
 p{
 	line-height: 2.2em;
 }
+
 .container{
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
 	display: flex;
 	margin-top: 15em;
-	margin-left: 10%;
-	margin-right: 10%;
-	min-width: 28em;
+/*	align-items: center;
+*/	min-width: 28em;
 	align-items: flex-start;
 }
+
 #bio{
 	max-width: 30em;
-   padding-left: 2em;
+    padding-left: 2em;
 }
 #interest{
 	padding-left: 2em;
 }
 #container-bio{
 	justify-content: center;
+}
+#container-employ{
+	max-width: 73em;
+}
+#container-contact{
+	max-width: 73em;
 }
 /*Project des at the left column*/
 .des{
@@ -34,6 +44,7 @@ p{
 h1#employ-heading{
 	width: 100%;
 	text-align: left;
+	min-width: 12em;
 }
 img.pjt-tittle-pic{
 	margin-top: 6.2em;
@@ -66,6 +77,7 @@ h1{
 #bio-slogan div p{
 	color: red;
 	font-size: 3.5em;
+	padding-left: 1em;
 }
 #bio-slogan div{
 	max-width: 70em;
@@ -86,15 +98,14 @@ h1#contact-heading{
 }
 .des h1{
 	min-width: 11.5em;
+	max-width:70em;
 }
 .contact-row{
 	display: flex;
 	justify-content: flex-start;
 	min-width: 22em;
 	flex-wrap: wrap;
-/*	padding-right: 1.5em;
-*/	padding-top: 3em;
-
+	padding-top: 3em;
 }
 @media(max-width: 49.5em){
 	.container{
@@ -137,6 +148,21 @@ span{
 		align-items: center;
 		min-width: 30em;
 	}
+	#container4, #container2{
+		margin-top: 5em;
+	}
+	#container-bio{
+		max-width: 35em;
+	}
+	#container-employ{
+		max-width: 32em;
+		margin-top: 3em;
+	}
+	#container-contact{
+		max-width: 35em;
+		margin-top: 0;
+	}
+
 	.pjt-des{
 		max-width: 50em;
 		margin-bottom: 5em;
@@ -149,18 +175,17 @@ span{
 	.img{
 		text-align: center;
 	}
-	.pjt-content{
 
-	}
 	.des{
 		margin-bottom: 5em;
 		min-width: 35em;
-		max-width: 80em;
+		max-width: 100%;
 		text-align: center;
 		padding-right: 0;
 	}
 	.des p{
 		text-align: left;
+		max-width: 35em;
 	}
 	.des h1{
 		text-align: center;
@@ -184,7 +209,7 @@ span{
 	img.pjt-tittle-pic{
 		margin-top: 0;
 	}
-	img!.icon-cherry{
+	.project-pic{
 		width: 600px;
 	}
 	.contact-row{
