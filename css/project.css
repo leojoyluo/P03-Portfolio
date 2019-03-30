@@ -26,7 +26,7 @@ p{
 }
 /*Project detail des at the right column*/
 .pjt-des{
-	max-width: 50em;
+	max-width: 41em;
 }
 .img img{
 	width: 40em;
@@ -84,13 +84,16 @@ h1{
 h1#contact-heading{
 	max-width: 40em;
 }
+.des h1{
+	min-width: 11.5em;
+}
 .contact-row{
 	display: flex;
 	justify-content: flex-start;
 	min-width: 22em;
 	flex-wrap: wrap;
-	padding-right: 1.5em;
-	padding-top: 3em;
+/*	padding-right: 1.5em;
+*/	padding-top: 3em;
 
 }
 @media(max-width: 49.5em){
@@ -135,8 +138,12 @@ span{
 		min-width: 30em;
 	}
 	.pjt-des{
-		min-width: 30em;
+		max-width: 50em;
 		margin-bottom: 5em;
+	}
+	.pjt-text{
+		margin-left: 10%;
+		margin-right: 10%;
 	}
 
 	.img{
@@ -149,6 +156,11 @@ span{
 		margin-bottom: 5em;
 		min-width: 35em;
 		max-width: 80em;
+		text-align: center;
+		padding-right: 0;
+	}
+	.des p{
+		text-align: left;
 	}
 	.des h1{
 		text-align: center;
@@ -166,10 +178,17 @@ span{
 		text-align: center;
 	}
 	h1#contact-heading{
-	width: 100%;
-	max-width: 80em;
+		width: 100%;
+		max-width: 80em;
 	}
 	img.pjt-tittle-pic{
 		margin-top: 0;
 	}
+	img!.icon-cherry{
+		width: 600px;
+	}
+	.contact-row{
+		padding-top: 0;
+	}
+
 }
