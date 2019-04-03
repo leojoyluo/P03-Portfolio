@@ -13,6 +13,7 @@
 <body id="styleguide-body">
 	 <header>
       <h1 id="styleguide-heading">Styleguide</h1>
+  </header>
 
    <!--  navigation bar on top -->
     <nav id="main-nav">      
@@ -23,7 +24,6 @@
           <a href="homepage.html#container-contact" class="nav">Contacts</a>     
       </div>  
   </nav>
-  </header>
 
 <section id="Home" class="element">
     <h3 class="style-guide-heading">Image as a Link</h3>
@@ -67,7 +67,7 @@
          <h5>CSS selector:</h5>
          <p class="css_selector">.products</p>
          <h5>Sample code:</h5>
-         <code>&lt;div class="products"&gt;&lt;img src="img/project1-1.png" width="700" alt="project1-1"&gt;</code>
+         <code>&lt;div class="products"&gt;&lt;img class="project-pic pjt-tittle-pic" width="700" alt="project1" src="img/project1-1-1.png" onmouseover="this.src='img/project1-1.png'" onmouseout="this.src='img/project1-1-1.png'&gt;</code>
          <code>&lt;p&gt;project1-1&lt;/p&gt;&lt;/div&gt;</code>
           
          <h4 class="style-guide-heading">Rendered element:</h4>
@@ -75,7 +75,7 @@
         <h4>Project Process</h4>
         <div class="pjt-content">
               <div class="img">
-                  <img src="img/project1-1.png" alt="project1-1"  width="700" > 
+                   <img class="project-pic pjt-tittle-pic" width="700" alt="project1" src="img/project1-1-1.png" onmouseover="this.src='img/project1-1.png'" onmouseout="this.src='img/project1-1-1.png'">
               </div>
               <div class="pjt-text"> 
                   <h2>Project Description</h2>

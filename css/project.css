@@ -8,8 +8,7 @@ p{
 	justify-content: center;
 	display: flex;
 	margin-top: 15em;
-/*	align-items: center;
-*/	min-width: 28em;
+	min-width: 28em;
 	align-items: flex-start;
 }
 
@@ -33,6 +32,19 @@ p{
 .des{
 	max-width: 30em;
 	padding-right: 2em;
+
+}
+/*the two flower images in des div*/
+.des div{
+	text-align: center;
+	padding-top: 30em;
+}
+#hide-flo img{
+	transform:rotate(80deg);
+	padding-right: 20em;
+}
+#hide-flo2{
+	transform: rotate(160deg);
 }
 /*Project detail des at the right column*/
 .pjt-des{
@@ -155,7 +167,7 @@ span{
 		max-width: 35em;
 	}
 	#container-employ{
-		max-width: 32em;
+		max-width: 35em;
 		margin-top: 3em;
 	}
 	#container-contact{
@@ -214,6 +226,23 @@ span{
 	}
 	.contact-row{
 		padding-top: 0;
+	}
+	#interest{
+		padding-left: 0;
+	}
+	#bio{
+		padding-left: 0;
+		max-width: 35em;
+		padding-bottom: 5em;
+	}
+	#container-bio img{
+		width: 100%;
+	}
+	.des div{
+		padding-top: 0;
+	}
+	#hide-flo, #hide-flo2{
+		display: none;
 	}
 
 }

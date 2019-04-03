@@ -24,6 +24,7 @@
 }
 #main-nav{
 	position: sticky;
+	position: -webkit-sticky; 
 	top: 0;
 	height: 50px;
 	border-bottom: 2px double red;
@@ -55,11 +56,11 @@
 	line-height: 2.2em;
 }
 #bio a:hover{
-	color: red;
+	background-color: grey;
 	transition: color 2s;
 }
 #bio a{
-	color: grey;
+	color: red;
 }
 .pjt-des a:hover{
 	color: red;
@@ -107,5 +108,10 @@ footer{
 h1#styleguide-heading{
 	text-align: center;
 	color: red;
+}
+@media(max-width: 70em){
+	h1{
+		text-align: center;
+	}
 }
 
