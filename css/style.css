@@ -107,7 +107,7 @@ footer{
 	border-left: red 2px solid;
 	padding-left: 1em;
 }
-h1#styleguide-heading{
+h1#styleguide-heading, h1#ref-heading{
 	text-align: center;
 	color: red;
 }
