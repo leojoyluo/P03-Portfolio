@@ -39,13 +39,14 @@ p{
 	text-align: center;
 	padding-top: 30em;
 }
-#hide-flo img{
+.hide-flo img{
 	transform:rotate(80deg);
-	padding-right: 20em;
 }
-#hide-flo2{
+.hide-flo2{
+	padding-bottom: 20em;
 	transform: rotate(160deg);
 }
+
 /*Project detail des at the right column*/
 .pjt-des{
 	max-width: 41em;
@@ -103,8 +104,8 @@ h1{
 #container3{
 	align-items: center;
 }
-/*Contact me section*/
 
+/*Contact me section*/
 h1#contact-heading{
 	max-width: 40em;
 }
@@ -130,6 +131,7 @@ h1#contact-heading{
 	padding: 1em;
 	min-width: 30em;
 }
+/*send button attributes*/
 #send-button{
 	text-align: right;
 	padding-right: 1em;
@@ -144,6 +146,7 @@ h1#contact-heading{
 	transition: background-color 2s;
 	background-color: red;
 }
+/* phone number font color :red*/
 span{
 	color: red;
 }
@@ -202,6 +205,9 @@ span{
 	.des h1{
 		text-align: center;
 	}
+	.des div{
+		padding-top: 0;
+	}
 	body{
 		min-width: 40em;
 	}
@@ -238,10 +244,8 @@ span{
 	#container-bio img{
 		width: 100%;
 	}
-	.des div{
-		padding-top: 0;
-	}
-	#hide-flo, #hide-flo2{
+
+	.hide-flo, .hide-flo2{
 		display: none;
 	}
 

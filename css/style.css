@@ -80,19 +80,21 @@
 	font-size: 1.2em;
 	transition: background-color 2s;
 }
-
+/*links to styleguide & git respository*/
 footer a{
     color: grey;
 }
 
 footer a:hover{
     color: red;
+    transition: color 2s;
 }
 footer{
 	text-align: center;
 	padding-top: 5em;
 	padding-bottom: 5em;
 }
+/*levels of headings*/
 #levels-heading h1{
 	color: red;
 	border-top: solid red 2px;
